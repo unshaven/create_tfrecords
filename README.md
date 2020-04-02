@@ -21,9 +21,8 @@ A simpler way of preparing large-scale image dataset by generalizing functions f
 - dataset_dir (string): The directory to your dataset that is arranged in a structured way where your subdirectories keep classes of your images. 
 
 For example:
-
-    flowers\
-        flower_photos\
+ 
+        flowers\
             tulips\
                 ....jpg
                 ....jpg
@@ -37,7 +36,7 @@ For example:
             daisy\
                 ....jpg
    
-  Note: Your dataset_dir should be /path/to/flowers and not /path/to/flowers/flowers_photos
+  Note: Your dataset_dir should be /path/to/flowers 
 
 - tfrecord_filename (string): The output name of your TFRecord files.
 
